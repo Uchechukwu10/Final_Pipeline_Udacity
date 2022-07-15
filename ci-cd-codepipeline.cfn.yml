@@ -17,7 +17,7 @@ Parameters:
   GitSourceRepo:
     Type: String
     Description: TODO - GitHub source repository - must contain a Dockerfile and buildspec.yml in the base
-    Default: cd0157_Final_Pipeline
+    Default: Final_Pipeline_Udacity
     MinLength: 1
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub repository name
@@ -40,7 +40,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: SudKul
+    Default: Uchechukwu10
     Description: TODO - GitHub username or organization
     MinLength: 3
     MaxLength: 100
